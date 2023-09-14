@@ -1,0 +1,125 @@
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+}
+/*FINAL RESET*/
+
+
+@media  (min-width: 380px) {
+    .dimension{
+     /* Rectangle 2 */
+        position: absolute;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        max-width: 100%;
+
+    }
+    .logo{
+        background-color: whitesmoke;
+        width: 12rem;
+        height: 12rem;
+        border-radius: 40%;
+        margin-left: 25%;
+        margin-bottom: 0.5rem;
+        
+    }
+    .containerMenu{
+        background-color: aliceblue;
+        padding: 1rem;
+        margin: 0rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style: none;
+        gap: 1rem;
+
+    }
+    .containerMenu li{
+        background-color: blueviolet;
+        padding: 15px;
+        border-radius: 1rem;
+        text-align: center;
+        box-shadow:2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .containerMenu li:active{
+        background-color: darkslategray;
+        box-shadow:2px 5px 4px 1px rgba(0, 0, 0, 0.5);
+        /* Rectangle 13 */
+
+    }
+
+
+    .sessionone{
+        justify-content: center;
+        background-color: #6B5252;
+        margin-top: 0.5rem;
+        height: 10rem;
+    }
+
+    .sessionone b{
+        margin-left: 7rem;
+    }
+    .img-main {
+        display: flex; /* Use flex para alinhar as imagens em linha */
+        justify-content: space-between; /* Espaçamento igual entre as imagens */
+        align-items: center; /* Alinha verticalmente as imagens ao centro, se necessário */
+    }
+    
+    .img-main img {
+        width: 8rem;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .sobre{
+        border: #000000 solid 0.1rem;
+        margin: 0.5rem;
+        margin-top: 0.5rem;
+        background-color:#d6d6d6 ;
+        border-radius: 3%;
+    }
+
+    .sobre p{
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+    }
+
+    .sobre b{
+        margin-left: 7rem;
+    }
+
+    .servicos{
+        background-color: #6B5252;
+        margin: 0rem;
+    }
+
+    .servicos ul{
+        padding: .5rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style: none;
+        gap: 0.3rem;
+        text-align: center;
+
+    }
+    .servicos li{
+        padding: 15px;
+        background-color: aquamarine;
+        height: 45px;
+        width: auto;
+        margin: 0;
+    }
+    .servicos p{
+        margin: .1rem;
+        text-align: center;
+    }
+
+
+}
